@@ -1,0 +1,41 @@
+.navbar-toggler {
+    margin-left: auto; /* Перемещает кнопку бургер-меню вправо */
+}
+.navbar {
+    padding-top: 50px; /* Отступ сверху */
+    text-transform: uppercase;
+    font-family:sf_bold ;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+
+    height: 800px;
+    background-image: url(/images/bachground.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero_section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.nav-link-custom{
+    color: white;
+    transition: color 0.1s ease;
+    cursor: pointer;
+}
+
+
+.nav-link-custom:hover{
+    color: #5B00FB; /* Цвет текста при наведении */
+}
+.herobutton{
+    background: #5d00fa;
+background: linear-gradient(90deg, #5d00fa 0%, #d70dca 100%);
+border: 0;
+padding: 1rem 3rem;
+border-radius: 46px;
+
+}

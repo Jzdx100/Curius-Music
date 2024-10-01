@@ -1,0 +1,31 @@
+.form-email, .form-phone{
+border-radius: 48px;
+border-color: gray;
+font-size: 1.2rem;
+width: 50vw;
+padding: 2rem 3rem;
+}
+
+.buttton_send{
+    border-radius: 48px;
+    border-color: none;
+    background: #5d00fa;
+    background: linear-gradient(90deg, #5d00fa 0%, #d70dca 100%);
+    border: none;
+    color: white;
+    font-family: $bold;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin-top: 1.4rem;
+}
+.form-email::placeholder{
+    color: #74747499;
+}
+.form-phone::placeholder{
+    color: #74747499;
+}
+.contact{
+    font-family: $bold;
+    font-size: 2rem;
+    color: white;
+}

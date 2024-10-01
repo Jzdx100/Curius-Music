@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/scss/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTs by Curios Music</title>
+</head>
+<body class="bg">
+    <div class="container-fluid p-0 wrapper uiio">
+        <nav class="navbar navbar-dark p-3"style="border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Curios Music</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas text-bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link nav-link-custom" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link-custom" href="#">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">Marketplace</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hero_section">
+            <h1 class="heroh1 fw-bold text-white display-2 text-center">NFTs by Curios Music</h1>
+            <h2 class="heroh2 fw-medium text-white fs-2 text-center">Own a one-of-a-kind and limited digital collectible</h2>
+            <button class="herobutton fw-bold text-white fs-4 mt-5" data-bs-toggle="modal" data-bs-target="#nftModal">Latest NFT drops</button>
+            <div class="modal fade" id="nftModal" tabindex="-1" aria-labelledby="nftModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="nftModalLabel">Latest NFT Drops</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Here are the latest NFT drops available for you. Stay tuned for more exciting releases!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Explore More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 d-flex flex-column align-items-center">
+        <h1 class="text-white corusel-class1 mb-5 pb-5">Feutured NFT's</h1>
+        <div id="carouselExample" class="carousel slide mb-5 pb-5">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-card d-flex flex-column align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/Rectangle 8-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h5 class="run text-white card-title text-center mb-4">Run the Jewels2</h5>
+                          <p class="buy text-white card-text text-center mt-4">BUY NOW $9.00</p>
+                          <button class="button_view " data-bs-toggle="tooltip" title="Buy NOW!">View details</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-card d-flex flex-column align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/Rectangle 8-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h5 class="run text-white card-title text-center mb-4">Run the Jewels2</h5>
+                          <p class="buy text-white card-text text-center mt-4">BUY NOW $9.00</p>
+                          <button class="button_view " data-bs-toggle="tooltip" title="Buy NOW!">View details</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-card d-flex flex-column align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/Rectangle 8-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h5 class="run text-white card-title text-center mb-4">Run the Jewels2</h5>
+                          <p class="buy text-white card-text text-center mt-4">BUY NOW $9.00</p>
+                          <button class="button_view " data-bs-toggle="tooltip" title="Buy NOW!">View details</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex gap-5 flex-column align-items-center pt-5">
+        <h class="contact">Contact Us</h>
+        <div class="form-container ">
+            <form class="needs-validation was-validated d-flex flex-column gap-4">
+                <input  class="form-control form-email" required placeholder="Email..." type="email">
+                <input class="form-control form-phone" required placeholder="Telephone..." type="tel">
+                <button class="buttton_send align-self-end" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid px-5 d-block d-lg-flex justify-content-center gap-5">
+        <div class="accordion">
+            <!-- Первый элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="1">How secure user accounts and personal data?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="1">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Это ответ на частый вопрос. Он вставлен как обычный текстовый блок. Также можно вставить любые другие блоки или изображения. Лучше ограничиться обычным текстом для лучшего восприятия информации.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Второй элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="2">Should I pay any taxes?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="2">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Для того чтобы задать свой вопрос, вам необходимо заполнить форму или написать нам через контактные данные, указанные на сайте. Мы постараемся ответить максимально быстро и подробно.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Третий элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="3">How secure user accounts and personal data?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="3">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Обычно нам задают вопросы, связанные с нашими услугами, процессом работы, сроками выполнения задач и стоимостью. Мы всегда готовы предоставить исчерпывающую информацию по всем интересующим вас вопросам.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="accordion">
+            <!-- Первый элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="1">How secure user accounts and personal data?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="1">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Это ответ на частый вопрос. Он вставлен как обычный текстовый блок. Также можно вставить любые другие блоки или изображения. Лучше ограничиться обычным текстом для лучшего восприятия информации.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Второй элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="2">Should I pay any taxes?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="2">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Для того чтобы задать свой вопрос, вам необходимо заполнить форму или написать нам через контактные данные, указанные на сайте. Мы постараемся ответить максимально быстро и подробно.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Третий элемент -->
+            <div class="accordion_element">
+                <div class="accordion_tab">
+                    <button class="accordion_base" data-content="3">How secure user accounts and personal data?</button>
+                    <img class="accordion_icon" src="/images/strelkadown.svg">
+                </div>
+                <div class="accordion_content" data-id="3">
+                    <div class="content_container_h">
+                        <p class="accordion_faq_p">Обычно нам задают вопросы, связанные с нашими услугами, процессом работы, сроками выполнения задач и стоимостью. Мы всегда готовы предоставить исчерпывающую информацию по всем интересующим вас вопросам.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <footer class="container-fluid mt-5  p-3 d-flex flex-column align-items-center futer">
+        <div class="row row-gap-2 w-100 futer_row justify-content-center">
+            <div class="col-lg-auto col-6">
+                <p class="footer_h"> Connect</p>
+                <hr class="footer_hr">
+                <p class="footer_p">support@curios.com</p>
+                <div class="footer_icons">
+                    <img src="images/Instagram.svg" alt="">
+                    <img src="images/tg.svg" alt="">
+                    <img src="images/twitter.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-auto col-6 ">
+                <p class="footer_h"> Mobile App</p>
+                <hr class="footer_hr">
+                <img class="footer_img" src="images/App Store.svg" alt="">
+                <img class="footer_img" src="images/Google Play.svg" alt="">
+            </div>
+            <div class="col-lg-auto col-6">
+                <p class="footer_h">About</p>
+                <hr class="footer_hr">
+                <ul>
+                    <li class="footer_p">about this marketplace</li>
+                    <li class="footer_p">frequently asked questions</li>
+                </ul>
+            </div>
+            <div class="col-lg-auto col-6">
+                <p class="footer_h">Legalise</p>
+                <hr class="footer_hr">
+                <ul>
+                    <li class="footer_p">terms</li>
+                    <li class="footer_p">privacy</li>
+                    <li class="footer_p">returns & refunds</li>
+                    <li class="footer_p">taxes & fees</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

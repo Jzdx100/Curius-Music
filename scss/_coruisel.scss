@@ -1,0 +1,36 @@
+.run{
+    font-family: $bold;
+    font-size: 1.5rem;
+}
+.buy{
+    font-family: $bold;
+}
+.card {
+    background: radial-gradient(
+        circle,
+        #BB82DB 0%,      /* Light purple */
+        #636DC1 19%,     /* Medium blue */
+        #1D0F35 100%     /* Dark blue */
+    );
+}
+.ph1{
+ width: 10vw;
+}
+.container-card{
+    width: 100vw;
+}
+.card{
+    width: max-content;
+    
+}
+.corusel-class1{
+    font-family: $semi;
+}
+.button_view{
+    border: none;
+    background-color: white;
+    font-family: $bold;
+    padding: 1rem 2rem;
+    border-radius: 46px;
+    color: #5D00FA;
+}
