@@ -49,7 +49,7 @@ body {
 .wrapper {
   width: 100%;
   height: 800px;
-  background-image: url(Curius-Music/images/bachground.png);
+  background-image: url(images/bachground.png);
   background-size: cover;
   background-position: center;
 }
