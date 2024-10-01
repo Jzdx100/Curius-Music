@@ -3,30 +3,30 @@ html{
 }
 body{
     background-color: #101029;
-    background-image: url(/images/Home.png);
+    background-image: url(images/Home.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @font-face {
     font-family: sf_reg;
-    src: url(/fonts/SFProText-Regular.ttf);
+    src: url(fonts/SFProText-Regular.ttf);
 }
 @font-face {
     font-family: sf_med;
-    src: url(/fonts/SFProText-Medium.ttf);
+    src: url(fonts/SFProText-Medium.ttf);
 }
 @font-face {
     font-family: sf_light;
-    src: url(/fonts/SFProText-Light.ttf);
+    src: url(fonts/SFProText-Light.ttf);
 }
 @font-face {
     font-family: sf_sbold;
-    src: url(/fonts/SFProText-Semibold.ttf);
+    src: url(fonts/SFProText-Semibold.ttf);
 }
 @font-face {
     font-family: sf_bold;
-    src: url(/fonts/SFProText-Bold.ttf);
+    src: url(fonts/SFProText-Bold.ttf);
 }
 $reg: sf_reg;
 $bold: sf_bold;
