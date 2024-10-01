@@ -5,18 +5,18 @@ html {
 
 body {
   background-color: #101029;
-  background-image: url(./images/Home.png);
+  background-image: url(Curius-MusicimagesHome.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @font-face {
   font-family: sf_reg;
-  src: url(q35098yh/Curius-Music/fonts/SFProText-Regular.ttf);
+  src: url(scss/q35098yh/Curius-Music/fonts/SFProText-Regular.ttf);
 }
 @font-face {
   font-family: sf_med;
-  src: url(Curius-Music/fonts/SFProText-Medium.ttf);
+  src: url(/Curius-Music/fonts/SFProText-Medium.ttf);
 }
 @font-face {
   font-family: sf_light;
