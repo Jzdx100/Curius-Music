@@ -11,9 +11,13 @@ body {
 }
 
 .needs-validation{
-  width: max-content;
+  width: 50vw;
 }
-
+@media screen and (max-width: 900px) {
+ .needs-validation{
+  width: 80vw;
+  }
+}
 @font-face {
   font-family: sf_reg;
   src: url(/Curius-Music/fonts/SFProText-Regular.ttf);
